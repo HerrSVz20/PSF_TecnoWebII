@@ -1,0 +1,27 @@
+
+
+  REGISTRO .- CI, NOMBRE, APELLIDO, CEL, CORREO, CONTRASEÑA
+
+   LOGIN Adm.-  PIN(ci), CONTRASEÑA 
+   
+
+   (Login para el administrador de este sistema)
+
+   Certificados.-   NombredeCertificado, Luga, Institucion, FechadeEmision, HrsAcademicas (Lugar: ejemplo Sucre)
+   Distinciones.-   Diplomados, Cursos, Proyectos (Deben diferenciar de las demas tablas)
+
+    Experiencia.-    CI, Empresa,  Fecha_Inicio, FechaFin_trabajo, Publicaciones
+
+    Formacion.-      CI, Colegio, Nombre_Titulo, Fecha, Institucion, Nivel_instruccion 
+       
+    Funcionarios.- (Datos personales del administrados o administradores)
+ 
+    Idiomas.-           nombre_titulo, institucion, fecha 
+
+    Investigaciones.-  Areas Cientificas, ParticipacionEnproyectos, ProduccionCientifica,ProduccionTecnologica(Interesante este punto habria q analizar los campos)
+
+     Persona.-          CI, Nombre, Apellidos, Cel, Correo (si existe esta tabla...La tabla Docente deberia heredar estos campos)
+
+    // Publicaciones.- (Seguramente esto podria ir en la tabla de experiencia)
+
+     Usuarios.- Id, nick, Password, Rol  
